@@ -1,0 +1,34 @@
+$gorko-base-size: 1rem;
+
+$gorko-size-scale: (
+  '400': $gorko-base-size,
+  '500': $gorko-base-size * 1.25,
+  '600': $gorko-base-size * 1.5,
+);
+
+$gorko-colors: (
+  'dark': #222,
+  'light': #fff,
+  'primary': #3456a3,
+);
+
+$gorko-config: (
+  'bg': (
+    'items': $gorko-colors,
+    'output': 'standard',
+    'property': 'background',
+  ),
+  'color': (
+    'items': $gorko-colors,
+    'output': 'standard',
+    'property': 'color',
+  ),
+  'text': (
+    'items': $gorko-size-scale,
+    'output': 'responsive',
+    'property': 'font-size',
+  ),
+  'breakpoints': (
+    'md': '(min-width: 37em)',
+  ),
+);
