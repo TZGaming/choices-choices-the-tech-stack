@@ -1,3 +1,18 @@
 @import 'config';
 @import '../../node_modules/gorko/gorko.scss';
 @import 'reset';
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 2rem;
+    overflow-y: visible;
+
+    img {
+        width: 256px;
+        height: 512px;
+    }
+}
