@@ -1,0 +1,14 @@
+{
+  "name": "choices-choices-the-tech-stack",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.8",
+    "gorko": "0.9.1",
+    "sass": "1.108.2"
+  }
+}

@@ -1,0 +1,16 @@
+$gorko-base-size: 1rem;
+
+$gorko-size-scale: (
+  "300": $gorko-base-size * 0.75,
+  "400": $gorko-base-size,
+  "500": $gorko-base-size * 1.25,
+  "600": $gorko-base-size * 1.5,
+  "700": $gorko-base-size * 2,
+  "800": $gorko-base-size * 3,
+);
+
+$gorko-colors: (
+  "dark": #222,
+  "light": #fff,
+  "primary": #3456a3,
+);
