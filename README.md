@@ -28,7 +28,17 @@ De instructie vind je in de [Wiki]([https://github.com/fdnd-task/choices-choices
 
 ## Installatie
 
+Installeer de ontwikkelafhankelijkheden met:
+
+```sh
+npm install
+```
+
 ## Gebruik
+
+Start de lokale ontwikkelserver met `npm start` of maak een productiebuild met `npm run build`. De build komt in `dist/`.
+
+Pas de stylesheet aan in `src/css/critical.scss`. De kleuren en typografische schaal staan in `src/css/_config.scss`; Eleventy compileert de Sass automatisch naar `dist/css/critical.css`. Er zijn nog geen HTML-pagina's of templates toegevoegd.
 
 ## Bronnen
 
