@@ -1,0 +1,7 @@
+title: "Q42 Museumplatform"
+client: "Q42 & Teylers Museum"
+status: "active"
+years: [2]
+main_link: ""
+dev_link: ""
+tech_stack: ["SvelteKit", "Directus"]
