@@ -1,0 +1,41 @@
+---
+import Logo from '../atoms/Logo.astro';
+import NavLink from '../atoms/NavLink.astro';
+import Score from '../molecules/Score.astro';
+---
+
+<header>
+	<article>
+		<Logo />
+	</article>
+	<article>
+		<NavLink />
+		<Score />
+	</article>
+</header>
+
+<style>
+	header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1rem 10rem 1rem 10rem;
+		position: sticky;
+		top: 0;
+		z-index: 100;
+    	background-color: var(--color-primary);
+    	border-bottom: 2px solid var(--color-border);
+
+		@media (max-width: 48rem) {
+			padding: 1rem 1.5rem;
+		}
+	}
+
+	article {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 1.5rem;
+	}
+</style>
