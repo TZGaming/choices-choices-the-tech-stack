@@ -4,9 +4,9 @@ import Score from "@/components/molecules/Score";
 
 export default function Header() {
   return (
-    <header>
+    <header className="siteHeader">
       <Logo />
-      <div>
+      <div className="headerActions">
         <NavLink />
         <Score />
       </div>
