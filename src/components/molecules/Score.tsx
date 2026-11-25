@@ -1,3 +1,8 @@
 export default function Score() {
-  return null;
+  return (
+    <div className="score">
+      <p>Score</p>
+      <p>0/5</p>
+    </div>
+  );
 }
